@@ -50,6 +50,16 @@ POST /fish-mood/set      改数值（需管理员模式）
 
 ## 安装
 
+### 一条命令（仓库已开源，最省事）
+
+```bash
+dsh plugin --profile web add github:2074851180qw-code/dsh-fish-mood
+# 装完重启 dsh，浏览器开 http://127.0.0.1:8799
+```
+
+> 这仓库**自带编译好的 lib/**，没有 build 步骤，clone 下来就能跑。
+> 如果那台机器连不上 GitHub，走下面的离线包装法。
+
 ### Android（DSHA / proot 容器）
 
 ```bash
