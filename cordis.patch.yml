@@ -1,0 +1,4 @@
+# dsh-fish-mood bundle patch: 肥鱼的心情状态机
+- insert:
+    - id: dsha-fish-mood
+      name: 'dsh-fish-mood'
