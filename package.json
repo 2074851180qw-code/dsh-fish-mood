@@ -1,0 +1,14 @@
+{
+  "name": "dsh-fish-mood",
+  "version": "0.1.0",
+  "description": "给肥鱼一个会掉、会抑郁的心情：心情影响主动聊天权重与话长，带事件记账与按时结算",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": { ".": "./lib/index.js", "./package.json": "./package.json" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-mcp-client": "0.2.0-rc.2",
+    "@deepseek-ai/schemastery": "*"
+  },
+  "license": "MIT"
+}
